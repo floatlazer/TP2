@@ -1,5 +1,6 @@
 # Makefile TD n°2
-CXX = g++ -std=c++14
+#CXX = g++ -std=c++11
+CXX = mpic++ -std=c++11
 CXXFLAGS = -O2 -Wall -pedantic -march=native
 #CXXFLAGS = -g -Wall -pedantic -march=native
 LIBS = -lm
