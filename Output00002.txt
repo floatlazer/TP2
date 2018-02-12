@@ -1,212 +1,209 @@
 I'm the processus 2 on 4 processes.
-Process 1: Temps calcul ensemble mandelbrot row 1 to row 1: 4.2e-05
-Process 4: Temps calcul ensemble mandelbrot row 4 to row 4: 4.3e-05
-Process 7: Temps calcul ensemble mandelbrot row 7 to row 7: 4.4e-05
-Process 10: Temps calcul ensemble mandelbrot row 10 to row 10: 4.4e-05
-Process 13: Temps calcul ensemble mandelbrot row 13 to row 13: 4.4e-05
-Process 16: Temps calcul ensemble mandelbrot row 16 to row 16: 4.4e-05
-Process 19: Temps calcul ensemble mandelbrot row 19 to row 19: 4.6e-05
-Process 22: Temps calcul ensemble mandelbrot row 22 to row 22: 4.7e-05
-Process 25: Temps calcul ensemble mandelbrot row 25 to row 25: 0.012963
-Process 38: Temps calcul ensemble mandelbrot row 38 to row 38: 1.5e-05
-Process 39: Temps calcul ensemble mandelbrot row 39 to row 39: 1.4e-05
-Process 40: Temps calcul ensemble mandelbrot row 40 to row 40: 1.4e-05
-Process 41: Temps calcul ensemble mandelbrot row 41 to row 41: 1.7e-05
-Process 42: Temps calcul ensemble mandelbrot row 42 to row 42: 1.4e-05
-Process 43: Temps calcul ensemble mandelbrot row 43 to row 43: 1.3e-05
-Process 45: Temps calcul ensemble mandelbrot row 45 to row 45: 1.3e-05
-Process 48: Temps calcul ensemble mandelbrot row 48 to row 48: 1.4e-05
-Process 51: Temps calcul ensemble mandelbrot row 51 to row 51: 1.4e-05
-Process 54: Temps calcul ensemble mandelbrot row 54 to row 54: 1.4e-05
-Process 57: Temps calcul ensemble mandelbrot row 57 to row 57: 1.5e-05
-Process 60: Temps calcul ensemble mandelbrot row 60 to row 60: 1.6e-05
-Process 63: Temps calcul ensemble mandelbrot row 63 to row 63: 0.00762
-Process 67: Temps calcul ensemble mandelbrot row 67 to row 67: 0.022266
-Process 70: Temps calcul ensemble mandelbrot row 70 to row 70: 0.029185
-Process 73: Temps calcul ensemble mandelbrot row 73 to row 73: 0.027919
-Process 77: Temps calcul ensemble mandelbrot row 77 to row 77: 0.032238
-Process 80: Temps calcul ensemble mandelbrot row 80 to row 80: 0.060033
-Process 83: Temps calcul ensemble mandelbrot row 83 to row 83: 0.090282
-Process 86: Temps calcul ensemble mandelbrot row 86 to row 86: 0.108339
-Process 89: Temps calcul ensemble mandelbrot row 89 to row 89: 0.112899
-Process 92: Temps calcul ensemble mandelbrot row 92 to row 92: 0.105693
-Process 95: Temps calcul ensemble mandelbrot row 95 to row 95: 0.112638
-Process 98: Temps calcul ensemble mandelbrot row 98 to row 98: 0.117247
-Process 101: Temps calcul ensemble mandelbrot row 101 to row 101: 0.124045
-Process 104: Temps calcul ensemble mandelbrot row 104 to row 104: 0.117728
-Process 107: Temps calcul ensemble mandelbrot row 107 to row 107: 0.115697
-Process 111: Temps calcul ensemble mandelbrot row 111 to row 111: 0.108264
-Process 114: Temps calcul ensemble mandelbrot row 114 to row 114: 0.102856
-Process 117: Temps calcul ensemble mandelbrot row 117 to row 117: 0.095474
-Process 120: Temps calcul ensemble mandelbrot row 120 to row 120: 0.079501
-Process 124: Temps calcul ensemble mandelbrot row 124 to row 124: 0.051805
-Process 125: Temps calcul ensemble mandelbrot row 125 to row 125: 0.046038
-Process 130: Temps calcul ensemble mandelbrot row 130 to row 130: 0.036688
-Process 133: Temps calcul ensemble mandelbrot row 133 to row 133: 0.046096
-Process 137: Temps calcul ensemble mandelbrot row 137 to row 137: 0.053419
-Process 140: Temps calcul ensemble mandelbrot row 140 to row 140: 0.049432
-Process 143: Temps calcul ensemble mandelbrot row 143 to row 143: 0.047464
-Process 146: Temps calcul ensemble mandelbrot row 146 to row 146: 0.063647
-Process 149: Temps calcul ensemble mandelbrot row 149 to row 149: 0.103224
-Process 152: Temps calcul ensemble mandelbrot row 152 to row 152: 0.109072
-Process 155: Temps calcul ensemble mandelbrot row 155 to row 155: 0.094184
-Process 158: Temps calcul ensemble mandelbrot row 158 to row 158: 0.082237
-Process 161: Temps calcul ensemble mandelbrot row 161 to row 161: 0.054511
-Process 164: Temps calcul ensemble mandelbrot row 164 to row 164: 0.04589
-Process 168: Temps calcul ensemble mandelbrot row 168 to row 168: 0.029876
-Process 170: Temps calcul ensemble mandelbrot row 170 to row 170: 0.00239
-Process 172: Temps calcul ensemble mandelbrot row 172 to row 172: 0.006666
-Process 175: Temps calcul ensemble mandelbrot row 175 to row 175: 0.007006
-Process 179: Temps calcul ensemble mandelbrot row 179 to row 179: 0.002204
-Process 182: Temps calcul ensemble mandelbrot row 182 to row 182: 0.027766
-Process 185: Temps calcul ensemble mandelbrot row 185 to row 185: 0.027082
-Process 188: Temps calcul ensemble mandelbrot row 188 to row 188: 0.032158
-Process 192: Temps calcul ensemble mandelbrot row 192 to row 192: 0.004612
-Process 193: Temps calcul ensemble mandelbrot row 193 to row 193: 2.5e-05
-Process 194: Temps calcul ensemble mandelbrot row 194 to row 194: 0.002263
-Process 197: Temps calcul ensemble mandelbrot row 197 to row 197: 0.002203
-Process 198: Temps calcul ensemble mandelbrot row 198 to row 198: 0.008434
-Process 201: Temps calcul ensemble mandelbrot row 201 to row 201: 0.004796
-Process 204: Temps calcul ensemble mandelbrot row 204 to row 204: 0.013138
-Process 207: Temps calcul ensemble mandelbrot row 207 to row 207: 0.042879
-Process 210: Temps calcul ensemble mandelbrot row 210 to row 210: 0.046074
-Process 213: Temps calcul ensemble mandelbrot row 213 to row 213: 0.0347
-Process 220: Temps calcul ensemble mandelbrot row 220 to row 220: 3.3e-05
-Process 221: Temps calcul ensemble mandelbrot row 221 to row 221: 2.9e-05
-Process 222: Temps calcul ensemble mandelbrot row 222 to row 222: 3.2e-05
-Process 223: Temps calcul ensemble mandelbrot row 223 to row 223: 0.006577
-Process 226: Temps calcul ensemble mandelbrot row 226 to row 226: 0.02934
-Process 229: Temps calcul ensemble mandelbrot row 229 to row 229: 0.045574
-Process 232: Temps calcul ensemble mandelbrot row 232 to row 232: 0.058576
-Process 235: Temps calcul ensemble mandelbrot row 235 to row 235: 0.058779
-Process 239: Temps calcul ensemble mandelbrot row 239 to row 239: 0.050088
-Process 243: Temps calcul ensemble mandelbrot row 243 to row 243: 0.021928
-Process 244: Temps calcul ensemble mandelbrot row 244 to row 244: 0.019654
-Process 246: Temps calcul ensemble mandelbrot row 246 to row 246: 0.008822
-Process 248: Temps calcul ensemble mandelbrot row 248 to row 248: 0.004408
-Process 250: Temps calcul ensemble mandelbrot row 250 to row 250: 0.006572
-Process 253: Temps calcul ensemble mandelbrot row 253 to row 253: 0.004368
-Process 254: Temps calcul ensemble mandelbrot row 254 to row 254: 0.002186
-Process 255: Temps calcul ensemble mandelbrot row 255 to row 255: 0.004444
-Process 257: Temps calcul ensemble mandelbrot row 257 to row 257: 0.017451
-Process 261: Temps calcul ensemble mandelbrot row 261 to row 261: 0.017436
-Process 263: Temps calcul ensemble mandelbrot row 263 to row 263: 0.008687
-Process 270: Temps calcul ensemble mandelbrot row 270 to row 270: 0.006575
-Process 272: Temps calcul ensemble mandelbrot row 272 to row 272: 0.008784
-Process 275: Temps calcul ensemble mandelbrot row 275 to row 275: 3e-05
-Process 276: Temps calcul ensemble mandelbrot row 276 to row 276: 0.006632
-Process 279: Temps calcul ensemble mandelbrot row 279 to row 279: 0.004366
-Process 282: Temps calcul ensemble mandelbrot row 282 to row 282: 0.002209
-Process 283: Temps calcul ensemble mandelbrot row 283 to row 283: 0.010984
-Process 286: Temps calcul ensemble mandelbrot row 286 to row 286: 0.04566
-Process 289: Temps calcul ensemble mandelbrot row 289 to row 289: 0.052317
-Process 291: Temps calcul ensemble mandelbrot row 291 to row 291: 0.060739
-Process 294: Temps calcul ensemble mandelbrot row 294 to row 294: 0.065072
-Process 297: Temps calcul ensemble mandelbrot row 297 to row 297: 0.086783
-Process 300: Temps calcul ensemble mandelbrot row 300 to row 300: 0.1085
-Process 303: Temps calcul ensemble mandelbrot row 303 to row 303: 0.067501
-Process 306: Temps calcul ensemble mandelbrot row 306 to row 306: 0.065369
-Process 309: Temps calcul ensemble mandelbrot row 309 to row 309: 0.058642
-Process 312: Temps calcul ensemble mandelbrot row 312 to row 312: 0.041349
-Process 315: Temps calcul ensemble mandelbrot row 315 to row 315: 0.02187
-Process 316: Temps calcul ensemble mandelbrot row 316 to row 316: 0.011797
-Process 319: Temps calcul ensemble mandelbrot row 319 to row 319: 0.006595
-Process 320: Temps calcul ensemble mandelbrot row 320 to row 320: 0.004426
-Process 323: Temps calcul ensemble mandelbrot row 323 to row 323: 0.006669
-Process 326: Temps calcul ensemble mandelbrot row 326 to row 326: 0.006553
-Process 327: Temps calcul ensemble mandelbrot row 327 to row 327: 0.008747
-Process 330: Temps calcul ensemble mandelbrot row 330 to row 330: 0.008761
-Process 336: Temps calcul ensemble mandelbrot row 336 to row 336: 0.008734
-Process 339: Temps calcul ensemble mandelbrot row 339 to row 339: 0.028309
-Process 344: Temps calcul ensemble mandelbrot row 344 to row 344: 0.004388
-Process 345: Temps calcul ensemble mandelbrot row 345 to row 345: 0.002203
-Process 347: Temps calcul ensemble mandelbrot row 347 to row 347: 0.013121
-Process 350: Temps calcul ensemble mandelbrot row 350 to row 350: 0.006597
-Process 354: Temps calcul ensemble mandelbrot row 354 to row 354: 0.015337
-Process 357: Temps calcul ensemble mandelbrot row 357 to row 357: 0.037155
-Process 360: Temps calcul ensemble mandelbrot row 360 to row 360: 0.050146
-Process 363: Temps calcul ensemble mandelbrot row 363 to row 363: 0.047872
-Process 366: Temps calcul ensemble mandelbrot row 366 to row 366: 0.060985
-Process 369: Temps calcul ensemble mandelbrot row 369 to row 369: 0.039284
-Process 372: Temps calcul ensemble mandelbrot row 372 to row 372: 0.032658
-Process 376: Temps calcul ensemble mandelbrot row 376 to row 376: 0.00656
-Process 379: Temps calcul ensemble mandelbrot row 379 to row 379: 3.2e-05
-Process 381: Temps calcul ensemble mandelbrot row 381 to row 381: 3.5e-05
-Process 382: Temps calcul ensemble mandelbrot row 382 to row 382: 2.8e-05
-Process 383: Temps calcul ensemble mandelbrot row 383 to row 383: 0.010915
-Process 385: Temps calcul ensemble mandelbrot row 385 to row 385: 0.021761
-Process 388: Temps calcul ensemble mandelbrot row 388 to row 388: 0.039155
-Process 391: Temps calcul ensemble mandelbrot row 391 to row 391: 0.050006
-Process 394: Temps calcul ensemble mandelbrot row 394 to row 394: 0.01961
-Process 397: Temps calcul ensemble mandelbrot row 397 to row 397: 0.002191
-Process 399: Temps calcul ensemble mandelbrot row 399 to row 399: 0.008789
-Process 403: Temps calcul ensemble mandelbrot row 403 to row 403: 0.004402
-Process 409: Temps calcul ensemble mandelbrot row 409 to row 409: 0.026116
-Process 412: Temps calcul ensemble mandelbrot row 412 to row 412: 0.023952
-Process 414: Temps calcul ensemble mandelbrot row 414 to row 414: 0.026165
-Process 417: Temps calcul ensemble mandelbrot row 417 to row 417: 0.026314
-Process 425: Temps calcul ensemble mandelbrot row 425 to row 425: 0.008757
-Process 428: Temps calcul ensemble mandelbrot row 428 to row 428: 0.002226
-Process 430: Temps calcul ensemble mandelbrot row 430 to row 430: 0.026124
-Process 433: Temps calcul ensemble mandelbrot row 433 to row 433: 0.041263
-Process 436: Temps calcul ensemble mandelbrot row 436 to row 436: 0.052206
-Process 439: Temps calcul ensemble mandelbrot row 439 to row 439: 0.054371
-Process 442: Temps calcul ensemble mandelbrot row 442 to row 442: 0.084648
-Process 445: Temps calcul ensemble mandelbrot row 445 to row 445: 0.091185
-Process 448: Temps calcul ensemble mandelbrot row 448 to row 448: 0.102017
-Process 451: Temps calcul ensemble mandelbrot row 451 to row 451: 0.102275
-Process 454: Temps calcul ensemble mandelbrot row 454 to row 454: 0.054366
-Process 457: Temps calcul ensemble mandelbrot row 457 to row 457: 0.036995
-Process 458: Temps calcul ensemble mandelbrot row 458 to row 458: 0.045616
-Process 461: Temps calcul ensemble mandelbrot row 461 to row 461: 0.043475
-Process 464: Temps calcul ensemble mandelbrot row 464 to row 464: 0.045788
-Process 467: Temps calcul ensemble mandelbrot row 467 to row 467: 0.039183
-Process 470: Temps calcul ensemble mandelbrot row 470 to row 470: 0.026531
-Process 474: Temps calcul ensemble mandelbrot row 474 to row 474: 0.041315
-Process 477: Temps calcul ensemble mandelbrot row 477 to row 477: 0.062985
-Process 480: Temps calcul ensemble mandelbrot row 480 to row 480: 0.080414
-Process 483: Temps calcul ensemble mandelbrot row 483 to row 483: 0.091176
-Process 486: Temps calcul ensemble mandelbrot row 486 to row 486: 0.102122
-Process 489: Temps calcul ensemble mandelbrot row 489 to row 489: 0.1086
-Process 492: Temps calcul ensemble mandelbrot row 492 to row 492: 0.108391
-Process 495: Temps calcul ensemble mandelbrot row 495 to row 495: 0.110692
-Process 498: Temps calcul ensemble mandelbrot row 498 to row 498: 0.115022
-Process 501: Temps calcul ensemble mandelbrot row 501 to row 501: 0.110589
-Process 504: Temps calcul ensemble mandelbrot row 504 to row 504: 0.106328
-Process 506: Temps calcul ensemble mandelbrot row 506 to row 506: 0.104163
-Process 509: Temps calcul ensemble mandelbrot row 509 to row 509: 0.108828
-Process 512: Temps calcul ensemble mandelbrot row 512 to row 512: 0.106328
-Process 515: Temps calcul ensemble mandelbrot row 515 to row 515: 0.091128
-Process 518: Temps calcul ensemble mandelbrot row 518 to row 518: 0.069441
-Process 520: Temps calcul ensemble mandelbrot row 520 to row 520: 0.05861
-Process 526: Temps calcul ensemble mandelbrot row 526 to row 526: 0.026135
-Process 529: Temps calcul ensemble mandelbrot row 529 to row 529: 0.026109
-Process 532: Temps calcul ensemble mandelbrot row 532 to row 532: 0.021776
-Process 535: Temps calcul ensemble mandelbrot row 535 to row 535: 0.004399
-Process 537: Temps calcul ensemble mandelbrot row 537 to row 537: 0.002189
-Process 538: Temps calcul ensemble mandelbrot row 538 to row 538: 1.7e-05
-Process 539: Temps calcul ensemble mandelbrot row 539 to row 539: 1.6e-05
-Process 540: Temps calcul ensemble mandelbrot row 540 to row 540: 1.6e-05
-Process 541: Temps calcul ensemble mandelbrot row 541 to row 541: 1.5e-05
-Process 542: Temps calcul ensemble mandelbrot row 542 to row 542: 1.4e-05
-Process 543: Temps calcul ensemble mandelbrot row 543 to row 543: 1.5e-05
-Process 544: Temps calcul ensemble mandelbrot row 544 to row 544: 1.4e-05
-Process 545: Temps calcul ensemble mandelbrot row 545 to row 545: 1.4e-05
-Process 546: Temps calcul ensemble mandelbrot row 546 to row 546: 1.5e-05
-Process 547: Temps calcul ensemble mandelbrot row 547 to row 547: 1.4e-05
-Process 548: Temps calcul ensemble mandelbrot row 548 to row 548: 1.4e-05
-Process 549: Temps calcul ensemble mandelbrot row 549 to row 549: 1.3e-05
-Process 550: Temps calcul ensemble mandelbrot row 550 to row 550: 1.4e-05
-Process 551: Temps calcul ensemble mandelbrot row 551 to row 551: 1.4e-05
-Process 552: Temps calcul ensemble mandelbrot row 552 to row 552: 1.3e-05
-Process 553: Temps calcul ensemble mandelbrot row 553 to row 553: 1.4e-05
-Process 554: Temps calcul ensemble mandelbrot row 554 to row 554: 1.4e-05
-Process 555: Temps calcul ensemble mandelbrot row 555 to row 555: 1.3e-05
-Process 556: Temps calcul ensemble mandelbrot row 556 to row 556: 1.4e-05
-Process 557: Temps calcul ensemble mandelbrot row 557 to row 557: 1.4e-05
-Process 558: Temps calcul ensemble mandelbrot row 558 to row 558: 1.6e-05
-Process 559: Temps calcul ensemble mandelbrot row 559 to row 559: 1.4e-05
-Process 560: Temps calcul ensemble mandelbrot row 560 to row 560: 1.4e-05
-Process 561: Temps calcul ensemble mandelbrot row 561 to row 561: 1.4e-05
-Process 562: Temps calcul ensemble mandelbrot row 562 to row 562: 0.002186
-Process 575: Temps calcul ensemble mandelbrot row 575 to row 575: 0.006654
+Temps calcul ensemble mandelbrot row 1 to row 1: 1.1e-05
+Temps calcul ensemble mandelbrot row 25 to row 25: 0.004397
+Temps calcul ensemble mandelbrot row 38 to row 38: 1.4e-05
+Temps calcul ensemble mandelbrot row 39 to row 39: 1.4e-05
+Temps calcul ensemble mandelbrot row 40 to row 40: 1.4e-05
+Temps calcul ensemble mandelbrot row 41 to row 41: 1.6e-05
+Temps calcul ensemble mandelbrot row 43 to row 43: 1.4e-05
+Temps calcul ensemble mandelbrot row 45 to row 45: 1.4e-05
+Temps calcul ensemble mandelbrot row 47 to row 47: 1.4e-05
+Temps calcul ensemble mandelbrot row 49 to row 49: 1.3e-05
+Temps calcul ensemble mandelbrot row 51 to row 51: 1.4e-05
+Temps calcul ensemble mandelbrot row 53 to row 53: 1.6e-05
+Temps calcul ensemble mandelbrot row 64 to row 64: 0.00438
+Temps calcul ensemble mandelbrot row 66 to row 66: 0.020031
+Temps calcul ensemble mandelbrot row 69 to row 69: 0.029444
+Temps calcul ensemble mandelbrot row 72 to row 72: 0.028628
+Temps calcul ensemble mandelbrot row 76 to row 76: 0.008848
+Temps calcul ensemble mandelbrot row 78 to row 78: 0.04436
+Temps calcul ensemble mandelbrot row 81 to row 81: 0.075424
+Temps calcul ensemble mandelbrot row 84 to row 84: 0.09673
+Temps calcul ensemble mandelbrot row 87 to row 87: 0.112381
+Temps calcul ensemble mandelbrot row 90 to row 90: 0.109203
+Temps calcul ensemble mandelbrot row 93 to row 93: 0.119043
+Temps calcul ensemble mandelbrot row 96 to row 96: 0.109509
+Temps calcul ensemble mandelbrot row 99 to row 99: 0.116833
+Temps calcul ensemble mandelbrot row 102 to row 102: 0.118305
+Temps calcul ensemble mandelbrot row 105 to row 105: 0.111405
+Temps calcul ensemble mandelbrot row 108 to row 108: 0.111817
+Temps calcul ensemble mandelbrot row 112 to row 112: 0.101054
+Temps calcul ensemble mandelbrot row 115 to row 115: 0.096324
+Temps calcul ensemble mandelbrot row 118 to row 118: 0.083525
+Temps calcul ensemble mandelbrot row 120 to row 120: 0.074519
+Temps calcul ensemble mandelbrot row 123 to row 123: 0.056847
+Temps calcul ensemble mandelbrot row 128 to row 128: 0.028711
+Temps calcul ensemble mandelbrot row 131 to row 131: 0.03285
+Temps calcul ensemble mandelbrot row 133 to row 133: 0.041781
+Temps calcul ensemble mandelbrot row 136 to row 136: 0.044355
+Temps calcul ensemble mandelbrot row 139 to row 139: 0.04261
+Temps calcul ensemble mandelbrot row 142 to row 142: 0.038071
+Temps calcul ensemble mandelbrot row 145 to row 145: 0.055314
+Temps calcul ensemble mandelbrot row 148 to row 148: 0.103566
+Temps calcul ensemble mandelbrot row 151 to row 151: 0.103279
+Temps calcul ensemble mandelbrot row 154 to row 154: 0.091974
+Temps calcul ensemble mandelbrot row 157 to row 157: 0.084917
+Temps calcul ensemble mandelbrot row 160 to row 160: 0.054789
+Temps calcul ensemble mandelbrot row 163 to row 163: 0.052295
+Temps calcul ensemble mandelbrot row 167 to row 167: 0.036976
+Temps calcul ensemble mandelbrot row 168 to row 168: 0.026542
+Temps calcul ensemble mandelbrot row 175 to row 175: 0.006526
+Temps calcul ensemble mandelbrot row 180 to row 180: 0.006549
+Temps calcul ensemble mandelbrot row 183 to row 183: 0.030618
+Temps calcul ensemble mandelbrot row 187 to row 187: 0.023968
+Temps calcul ensemble mandelbrot row 189 to row 189: 0.033026
+Temps calcul ensemble mandelbrot row 195 to row 195: 3.3e-05
+Temps calcul ensemble mandelbrot row 196 to row 196: 0.004375
+Temps calcul ensemble mandelbrot row 199 to row 199: 0.00219
+Temps calcul ensemble mandelbrot row 200 to row 200: 0.008865
+Temps calcul ensemble mandelbrot row 205 to row 205: 0.01968
+Temps calcul ensemble mandelbrot row 208 to row 208: 0.050473
+Temps calcul ensemble mandelbrot row 211 to row 211: 0.039985
+Temps calcul ensemble mandelbrot row 214 to row 214: 0.022013
+Temps calcul ensemble mandelbrot row 218 to row 218: 3.6e-05
+Temps calcul ensemble mandelbrot row 220 to row 220: 3.4e-05
+Temps calcul ensemble mandelbrot row 221 to row 221: 2.8e-05
+Temps calcul ensemble mandelbrot row 222 to row 222: 3.1e-05
+Temps calcul ensemble mandelbrot row 223 to row 223: 0.006608
+Temps calcul ensemble mandelbrot row 224 to row 224: 0.019783
+Temps calcul ensemble mandelbrot row 228 to row 228: 0.030799
+Temps calcul ensemble mandelbrot row 231 to row 231: 0.045808
+Temps calcul ensemble mandelbrot row 234 to row 234: 0.050221
+Temps calcul ensemble mandelbrot row 236 to row 236: 0.048095
+Temps calcul ensemble mandelbrot row 240 to row 240: 0.04799
+Temps calcul ensemble mandelbrot row 243 to row 243: 0.02203
+Temps calcul ensemble mandelbrot row 244 to row 244: 0.019546
+Temps calcul ensemble mandelbrot row 247 to row 247: 0.004542
+Temps calcul ensemble mandelbrot row 249 to row 249: 0.006575
+Temps calcul ensemble mandelbrot row 251 to row 251: 0.013383
+Temps calcul ensemble mandelbrot row 254 to row 254: 0.002203
+Temps calcul ensemble mandelbrot row 255 to row 255: 0.004485
+Temps calcul ensemble mandelbrot row 258 to row 258: 0.010998
+Temps calcul ensemble mandelbrot row 260 to row 260: 0.028734
+Temps calcul ensemble mandelbrot row 263 to row 263: 0.008899
+Temps calcul ensemble mandelbrot row 268 to row 268: 0.00222
+Temps calcul ensemble mandelbrot row 270 to row 270: 0.006616
+Temps calcul ensemble mandelbrot row 272 to row 272: 0.008791
+Temps calcul ensemble mandelbrot row 275 to row 275: 2.9e-05
+Temps calcul ensemble mandelbrot row 278 to row 278: 0.002257
+Temps calcul ensemble mandelbrot row 279 to row 279: 0.004348
+Temps calcul ensemble mandelbrot row 281 to row 281: 0.006849
+Temps calcul ensemble mandelbrot row 284 to row 284: 0.022072
+Temps calcul ensemble mandelbrot row 287 to row 287: 0.04176
+Temps calcul ensemble mandelbrot row 289 to row 289: 0.054192
+Temps calcul ensemble mandelbrot row 292 to row 292: 0.063329
+Temps calcul ensemble mandelbrot row 295 to row 295: 0.070922
+Temps calcul ensemble mandelbrot row 298 to row 298: 0.093938
+Temps calcul ensemble mandelbrot row 301 to row 301: 0.103003
+Temps calcul ensemble mandelbrot row 304 to row 304: 0.077429
+Temps calcul ensemble mandelbrot row 308 to row 308: 0.075852
+Temps calcul ensemble mandelbrot row 310 to row 310: 0.055204
+Temps calcul ensemble mandelbrot row 313 to row 313: 0.048525
+Temps calcul ensemble mandelbrot row 315 to row 315: 0.021951
+Temps calcul ensemble mandelbrot row 319 to row 319: 0.006544
+Temps calcul ensemble mandelbrot row 324 to row 324: 2.7e-05
+Temps calcul ensemble mandelbrot row 325 to row 325: 0.008929
+Temps calcul ensemble mandelbrot row 329 to row 329: 0.006989
+Temps calcul ensemble mandelbrot row 331 to row 331: 0.002188
+Temps calcul ensemble mandelbrot row 332 to row 332: 0.002399
+Temps calcul ensemble mandelbrot row 334 to row 334: 3.4e-05
+Temps calcul ensemble mandelbrot row 335 to row 335: 5e-05
+Temps calcul ensemble mandelbrot row 336 to row 336: 0.01068
+Temps calcul ensemble mandelbrot row 339 to row 339: 0.032697
+Temps calcul ensemble mandelbrot row 345 to row 345: 0.002217
+Temps calcul ensemble mandelbrot row 347 to row 347: 0.014106
+Temps calcul ensemble mandelbrot row 351 to row 351: 0.004366
+Temps calcul ensemble mandelbrot row 353 to row 353: 0.011898
+Temps calcul ensemble mandelbrot row 356 to row 356: 0.023429
+Temps calcul ensemble mandelbrot row 359 to row 359: 0.052841
+Temps calcul ensemble mandelbrot row 362 to row 362: 0.044141
+Temps calcul ensemble mandelbrot row 365 to row 365: 0.055019
+Temps calcul ensemble mandelbrot row 368 to row 368: 0.050338
+Temps calcul ensemble mandelbrot row 371 to row 371: 0.033309
+Temps calcul ensemble mandelbrot row 373 to row 373: 0.028405
+Temps calcul ensemble mandelbrot row 377 to row 377: 3.2e-05
+Temps calcul ensemble mandelbrot row 378 to row 378: 2.9e-05
+Temps calcul ensemble mandelbrot row 379 to row 379: 3.2e-05
+Temps calcul ensemble mandelbrot row 380 to row 380: 0.010932
+Temps calcul ensemble mandelbrot row 384 to row 384: 0.026385
+Temps calcul ensemble mandelbrot row 387 to row 387: 0.039468
+Temps calcul ensemble mandelbrot row 390 to row 390: 0.055134
+Temps calcul ensemble mandelbrot row 394 to row 394: 0.022301
+Temps calcul ensemble mandelbrot row 397 to row 397: 0.002197
+Temps calcul ensemble mandelbrot row 400 to row 400: 0.002199
+Temps calcul ensemble mandelbrot row 401 to row 401: 0.006802
+Temps calcul ensemble mandelbrot row 404 to row 404: 4.3e-05
+Temps calcul ensemble mandelbrot row 405 to row 405: 0.002712
+Temps calcul ensemble mandelbrot row 409 to row 409: 0.028389
+Temps calcul ensemble mandelbrot row 412 to row 412: 0.026595
+Temps calcul ensemble mandelbrot row 415 to row 415: 0.02836
+Temps calcul ensemble mandelbrot row 418 to row 418: 0.013227
+Temps calcul ensemble mandelbrot row 420 to row 420: 0.002449
+Temps calcul ensemble mandelbrot row 421 to row 421: 0.002197
+Temps calcul ensemble mandelbrot row 424 to row 424: 0.007759
+Temps calcul ensemble mandelbrot row 427 to row 427: 0.007615
+Temps calcul ensemble mandelbrot row 431 to row 431: 0.033958
+Temps calcul ensemble mandelbrot row 434 to row 434: 0.071108
+Temps calcul ensemble mandelbrot row 438 to row 438: 0.056256
+Temps calcul ensemble mandelbrot row 441 to row 441: 0.086452
+Temps calcul ensemble mandelbrot row 444 to row 444: 0.100463
+Temps calcul ensemble mandelbrot row 447 to row 447: 0.110723
+Temps calcul ensemble mandelbrot row 450 to row 450: 0.11128
+Temps calcul ensemble mandelbrot row 453 to row 453: 0.07406
+Temps calcul ensemble mandelbrot row 456 to row 456: 0.088947
+Temps calcul ensemble mandelbrot row 461 to row 461: 0.079857
+Temps calcul ensemble mandelbrot row 466 to row 466: 0.042288
+Temps calcul ensemble mandelbrot row 469 to row 469: 0.035484
+Temps calcul ensemble mandelbrot row 472 to row 472: 0.027527
+Temps calcul ensemble mandelbrot row 475 to row 475: 0.115177
+Temps calcul ensemble mandelbrot row 480 to row 480: 0.115767
+Temps calcul ensemble mandelbrot row 484 to row 484: 0.104165
+Temps calcul ensemble mandelbrot row 487 to row 487: 0.114062
+Temps calcul ensemble mandelbrot row 490 to row 490: 0.120774
+Temps calcul ensemble mandelbrot row 493 to row 493: 0.126353
+Temps calcul ensemble mandelbrot row 496 to row 496: 0.131195
+Temps calcul ensemble mandelbrot row 500 to row 500: 0.13151
+Temps calcul ensemble mandelbrot row 503 to row 503: 0.11988
+Temps calcul ensemble mandelbrot row 505 to row 505: 0.118726
+Temps calcul ensemble mandelbrot row 509 to row 509: 0.117486
+Temps calcul ensemble mandelbrot row 512 to row 512: 0.11661
+Temps calcul ensemble mandelbrot row 516 to row 516: 0.095907
+Temps calcul ensemble mandelbrot row 519 to row 519: 0.062784
+Temps calcul ensemble mandelbrot row 521 to row 521: 0.047323
+Temps calcul ensemble mandelbrot row 525 to row 525: 0.023689
+Temps calcul ensemble mandelbrot row 528 to row 528: 0.030968
+Temps calcul ensemble mandelbrot row 531 to row 531: 0.027357
+Temps calcul ensemble mandelbrot row 534 to row 534: 0.010588
+Temps calcul ensemble mandelbrot row 540 to row 540: 1.7e-05
+Temps calcul ensemble mandelbrot row 541 to row 541: 2.9e-05
+Temps calcul ensemble mandelbrot row 542 to row 542: 2.8e-05
+Temps calcul ensemble mandelbrot row 543 to row 543: 2.8e-05
+Temps calcul ensemble mandelbrot row 544 to row 544: 2.8e-05
+Temps calcul ensemble mandelbrot row 545 to row 545: 1.4e-05
+Temps calcul ensemble mandelbrot row 546 to row 546: 1.4e-05
+Temps calcul ensemble mandelbrot row 547 to row 547: 1.4e-05
+Temps calcul ensemble mandelbrot row 548 to row 548: 1.4e-05
+Temps calcul ensemble mandelbrot row 549 to row 549: 1.4e-05
+Temps calcul ensemble mandelbrot row 550 to row 550: 1.4e-05
+Temps calcul ensemble mandelbrot row 551 to row 551: 1.3e-05
+Temps calcul ensemble mandelbrot row 553 to row 553: 1.4e-05
+Temps calcul ensemble mandelbrot row 555 to row 555: 1.3e-05
+Temps calcul ensemble mandelbrot row 557 to row 557: 1.4e-05
+Temps calcul ensemble mandelbrot row 559 to row 559: 1.4e-05
+Temps calcul ensemble mandelbrot row 561 to row 561: 1.4e-05
+Temps calcul ensemble mandelbrot row 563 to row 563: 1.4e-05
+Temps calcul ensemble mandelbrot row 564 to row 564: 1.4e-05
+Temps calcul ensemble mandelbrot row 565 to row 565: 1.3e-05
+Temps calcul ensemble mandelbrot row 566 to row 566: 1.3e-05
+Temps calcul ensemble mandelbrot row 567 to row 567: 1.3e-05
+Temps calcul ensemble mandelbrot row 568 to row 568: 1.3e-05
+Temps calcul ensemble mandelbrot row 569 to row 569: 1.4e-05
+Temps calcul ensemble mandelbrot row 570 to row 570: 1.3e-05
+Temps calcul ensemble mandelbrot row 571 to row 571: 1.3e-05
+Temps calcul ensemble mandelbrot row 572 to row 572: 1.3e-05
+Temps calcul ensemble mandelbrot row 573 to row 573: 1.3e-05
+Temps calcul ensemble mandelbrot row 574 to row 574: 0.004738
+Temps calcul ensemble mandelbrot row 593 to row 593: 1.2e-05
+Temps calcul ensemble mandelbrot row 595 to row 595: 1.1e-05
+Temps calcul ensemble mandelbrot row 597 to row 597: 1.1e-05
+Temps calcul ensemble mandelbrot row 599 to row 599: 1e-05

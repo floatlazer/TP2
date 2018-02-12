@@ -147,6 +147,7 @@ int main(int nargs, char** argv)
         for(int rk = 0; rk < nbp-1; rk++)
         {
             MPI_Send(&rk, 1, MPI_INT, rk+1, 0, globComm); // send first tasks
+            output << "Send task row "<< nbRowsSent << " to slave " << rk+1 << std::endl;
             nbRowsSent++;
         }
         
@@ -160,6 +161,7 @@ int main(int nargs, char** argv)
             if(nbRowsSent < H)
             {
                 MPI_Send(&nbRowsSent, 1, MPI_INT, slave_rk, 0, globComm); // send next line
+                output << "Send task row "<< nbRowsSent << " to slave " << slave_rk << std::endl;
                 nbRowsSent++;
             }
             else
