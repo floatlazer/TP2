@@ -157,7 +157,11 @@ int main(int nargs, char** argv)
             nbRowsRecv++;
             int currentRowNum = currentStatus.MPI_TAG;
             int slave_rk = currentStatus.MPI_SOURCE;
-            pixels.insert(pixels.begin()+W*(currentRowNum), currentRow, currentRow+W);
+            for(int i = 0; i < W; i++)
+            {
+                pixels[W*currentRowNum + i] =  currentRow[i];
+            }
+            //pixels.insert(pixels.begin()+W*(currentRowNum), currentRow, currentRow+W);
             if(nbRowsSent < H)
             {
                 MPI_Send(&nbRowsSent, 1, MPI_INT, slave_rk, 0, globComm); // send next line
