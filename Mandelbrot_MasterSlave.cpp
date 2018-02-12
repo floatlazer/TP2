@@ -5,6 +5,9 @@
 # include <cmath>
 # include "lodepng/lodepng.h"
 # include <mpi.h>
+# include <fstream>
+# include <sstream>
+# include <iomanip>
 
 /** Une structure complexe est définie pour la bonne raison que la classe
  * complex proposée par g++ est très lente ! Le calcul est bien plus rapide
@@ -63,7 +66,7 @@ int iterMandelbrot( int maxIter, const Complex& c)
  * itérer sur la suite de Mandelbrot. Le nombre d'itérations renvoyé
  * servira pour construire l'image finale.
  **/
-std::vector<int> computeMandelbrotSet( int W, int H, int maxIter, int rank, int H_loc)
+std::vector<int> computeMandelbrotSet( int W, int H, int maxIter, int rank, int H_loc, std::ofstream& output)
 {
     std::chrono::time_point<std::chrono::system_clock> start, end;
     // Calcul le facteur d'échelle pour rester dans le disque de rayon 2
@@ -84,7 +87,7 @@ std::vector<int> computeMandelbrotSet( int W, int H, int maxIter, int rank, int 
     }
     end = std::chrono::system_clock::now();
     std::chrono::duration<double> elapsed_seconds = end-start;
-    std::cout << "Process " << rank << ": Temps calcul ensemble mandelbrot row " 
+    output << "Temps calcul ensemble mandelbrot row " 
     << rank * H_loc << " to row " << (rank +1)*H_loc-1 << ": " << elapsed_seconds.count() << std::endl;
     return pixels;
 }
@@ -127,7 +130,14 @@ int main(int nargs, char** argv)
     MPI_Comm_size(globComm, &nbp);
     int rank;
     MPI_Comm_rank(globComm, &rank);
+    std::stringstream fileName;
+    fileName << "Output" << std::setfill('0') << std::setw(5) << rank << ".txt";
+    std::ofstream output( fileName.str().c_str() );
+
+    output << "I'm the processus " << rank << " on " << nbp << " processes." << std::endl;
+
     std::vector<int> pixels(W*H);
+
     if(rank == 0) // Master: patch line task to slaves
     {
         int currentRow[W]; // data
@@ -136,7 +146,7 @@ int main(int nargs, char** argv)
         MPI_Status currentStatus;
         for(int rk = 0; rk < nbp-1; rk++)
         {
-            MPI_Send(&rk, 1, MPI_INT, rk+1, rk, globComm); // send first tasks
+            MPI_Send(&rk, 1, MPI_INT, rk+1, 0, globComm); // send first tasks
             nbRowsSent++;
         }
         
@@ -167,16 +177,20 @@ int main(int nargs, char** argv)
             MPI_Recv(&row_recv, 1, MPI_INT, 0, 0, globComm, NULL);
             if(row_recv != -1)
             {
-                auto iters = computeMandelbrotSet( W, H, maxIter, row_recv, 1); // compute only one line
+                auto iters = computeMandelbrotSet( W, H, maxIter, row_recv, 1, output); // compute only one line
                 MPI_Send(iters.data(), W, MPI_INT, 0, row_recv, globComm);
             }  
         }
     }
     if ( rank == 0 )
     {
-        std::cout << "Master finished, saving image ..." << std::endl;
+        output << "Master finished, saving image ..." << std::endl;
         savePicture("mandelbrot_MasterSlave.png", W, H, pixels, maxIter);
     }
+
+    output.close();
+
     MPI_Finalize();
+
     return EXIT_SUCCESS;
 }
