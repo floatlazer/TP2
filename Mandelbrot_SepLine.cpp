@@ -134,7 +134,7 @@ int main(int nargs, char** argv)
     std::cout << "Pixels gathered." << std::endl;
     if ( rank == 0 )
     {
-        savePicture("mandelbrot.png", W, H, pixels, maxIter);
+        savePicture("mandelbrot_SepLine.png", W, H, pixels, maxIter);
     }
     MPI_Finalize();
     return EXIT_SUCCESS;

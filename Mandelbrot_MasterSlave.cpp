@@ -71,7 +71,7 @@ std::vector<int> computeMandelbrotSet( int W, int H, int maxIter, int rank, int 
     double scaleX = 3./(W-1);
     double scaleY = 2.25/(H-1);
     //
-    std::vector<int> pixels(W*H/nbp);
+    std::vector<int> pixels(W*H_loc);
     start = std::chrono::system_clock::now();
     // On parcourt les pixels de l'espace image :
     for ( int i_loc = 0; i_loc < H_loc; ++i_loc )
@@ -128,27 +128,54 @@ int main(int nargs, char** argv)
     int rank;
     MPI_Comm_rank(globComm, &rank);
     std::vector<int> pixels(W*H);
-    if(rank == 0)
+    if(rank == 0) // Master: patch line task to slaves
     {
-
+        int currentRow[W]; // data
+        int nbRowsSent = 0; // number of lines already sent
+        int nbRowsRecv = 0; // number of rows already received
+        MPI_Status currentStatus;
+        for(int rk = 0; rk < nbp-1; rk++)
+        {
+            MPI_Send(&rk, 1, MPI_INT, rk+1, rk, globComm); // send first tasks
+            nbRowsSent++;
+        }
+        
+        while(nbRowsRecv < H)
+        {
+            MPI_Recv(&currentRow, W, MPI_INT, MPI_ANY_SOURCE, MPI_ANY_TAG, globComm, &currentStatus);
+            nbRowsRecv++;
+            int currentRowNum = currentStatus.MPI_TAG;
+            int slave_rk = currentStatus.MPI_SOURCE;
+            pixels.insert(pixels.begin()+W*(currentRowNum), currentRow, currentRow+W);
+            if(nbRowsSent < H)
+            {
+                MPI_Send(&nbRowsSent, 1, MPI_INT, slave_rk, 0, globComm); // send next line
+                nbRowsSent++;
+            }
+            else
+            {
+                int finishSignal = -1;
+                MPI_Send(&finishSignal, 1, MPI_INT, slave_rk, 0, globComm); // send next line
+            }
+        }
     }
-    else
+    else // Slave: receive instruction and execute
     {
         int row_recv = 0;
         while(row_recv != -1)
         {
-            MPI_Recv(&row_recv, 1, MPI_INT, 0, 0, globComm; NULL);
+            MPI_Recv(&row_recv, 1, MPI_INT, 0, 0, globComm, NULL);
             if(row_recv != -1)
             {
-                auto iters = computeMandelbrotSet( W, H, maxIter, row_recv, 1);
-                MPI_Send(iters.data, W, MPI_INT, 0, row_recv, globComm);
+                auto iters = computeMandelbrotSet( W, H, maxIter, row_recv, 1); // compute only one line
+                MPI_Send(iters.data(), W, MPI_INT, 0, row_recv, globComm);
             }  
         }
     }
-    std::cout << "Pixels gathered." << std::endl;
     if ( rank == 0 )
     {
-        savePicture("mandelbrot.png", W, H, pixels, maxIter);
+        std::cout << "Master finished, saving image ..." << std::endl;
+        savePicture("mandelbrot_MasterSlave.png", W, H, pixels, maxIter);
     }
     MPI_Finalize();
     return EXIT_SUCCESS;
